@@ -1,0 +1,931 @@
+title: Readable font collections
+description: Font entries extracted from the supplied HTML. Quirky/unreadable collections 'Cryptic' and
+  'Almost' are omitted; the empty 'My Fonts' collection is omitted.
+collections:
+- name: Basics
+  description: As simple and efficient as it gets
+- name: Fantasy
+  description: From all the worlds that exist when one expands the boundaries of their imagination
+- name: Pixels
+  description: From the past, back when we could actually see the pixels
+- name: Display
+  description: To get creative, off track and have fun
+excluded_collections:
+- My Fonts (empty)
+- Cryptic
+- Almost
+font_count: 36
+fonts:
+- name: Bebas Neue
+  source_anchor: Basics:75
+  preview:
+    type: image
+    url: https://ik.imagekit.io/yuzu/fonts/previews/s3-1719765658733.svg
+    aspect_ratio: '5:1'
+  visual_description: >-
+    A tall, tightly condensed display sans-serif with narrow letterforms, straight-sided shapes, and a
+    strong vertical rhythm. It reads as bold, punchy, and poster-like, especially in uppercase headlines.
+    The narrow forms let large words fit into limited horizontal space.
+  visual_traits:
+    classification: condensed display sans-serif
+    proportions: very tall and narrow
+    stroke_style: clean, fairly uniform strokes
+    personality:
+    - bold
+    - assertive
+    - editorial
+    - poster-like
+  best_for:
+  - headlines
+  - posters
+  - labels
+  - short emphatic titles
+  category: Basics
+- name: JetBrains Mono
+  source_anchor: Basics:205
+  preview:
+    type: image
+    url: https://ik.imagekit.io/yuzu/fonts/previews/s3-1719498938413.svg
+    aspect_ratio: '5:1'
+  visual_description: >-
+    A crisp monospace sans-serif in which characters occupy consistent-width cells. Letterforms are technical
+    and carefully differentiated, with clear punctuation and numerals and subtly squared oval shapes.
+    The overall impression is precise, orderly, modern, and code-oriented rather than expressive or ornamental.
+  visual_traits:
+    classification: monospace sans-serif
+    proportions: fixed-width character cells; standard-width glyphs
+    stroke_style: clean, even, technical
+    personality:
+    - precise
+    - modern
+    - technical
+    - structured
+  best_for:
+  - code
+  - terminal text
+  - technical labels
+  - tabular data
+  category: Basics
+- name: Noto Sans
+  source_anchor: Basics:18
+  preview:
+    type: image
+    url: https://ik.imagekit.io/yuzu/fonts/previews/s3-1717497107847.svg
+    aspect_ratio: '5:1'
+  visual_description: >-
+    A neutral, contemporary sans-serif with balanced proportions, open counters, and uncomplicated letter
+    shapes. Its strokes feel even and its forms are designed to remain clear without drawing attention
+    to the typography. It looks practical, calm, and highly readable, making it a versatile default for
+    interfaces and longer passages of text.
+  visual_traits:
+    classification: general-purpose sans-serif
+    proportions: balanced and moderately open
+    stroke_style: even, low-contrast strokes
+    personality:
+    - neutral
+    - clear
+    - practical
+    - unobtrusive
+  best_for:
+  - body text
+  - user interfaces
+  - documents
+  - general-purpose labels
+  category: Basics
+- name: Noto Sans Math
+  source_anchor: Basics:2103
+  preview:
+    type: inline_svg
+    url: null
+    view_box: 0 0 400 80
+    note: The glyph paths are embedded directly in the supplied HTML.
+  visual_description: >-
+    A math-oriented companion typeface for mathematical characters and notation, intended for use with
+    expressions, equations, and technical symbols. Its sample is provided as outlined SVG paths in the
+    HTML. Treat it as a notation and symbol-support face rather than assuming it is a separate decorative
+    display style; the visible sample also includes Latin letterforms.
+  visual_traits:
+    classification: mathematical notation font
+    proportions: designed to support a broad set of math glyphs
+    stroke_style: clean, technical forms
+    personality:
+    - systematic
+    - technical
+    - functional
+  best_for:
+  - equations
+  - mathematical expressions
+  - technical documents
+  - symbol-heavy content
+  category: Basics
+- name: Nunito
+  source_anchor: Basics:204
+  preview:
+    type: image
+    url: https://ik.imagekit.io/yuzu/fonts/previews/s3-1719498854340.svg
+    aspect_ratio: '5:1'
+  visual_description: >-
+    A friendly rounded sans-serif with soft terminals, smooth curves, and approachable, open letterforms.
+    Its shapes feel warmer and less severe than a sharply geometric or industrial sans-serif, while remaining
+    clean and readable. The rounded details give interfaces and short text a gentle, welcoming tone.
+  visual_traits:
+    classification: rounded sans-serif
+    proportions: balanced, with soft rounded forms
+    stroke_style: smooth and relatively even
+    personality:
+    - friendly
+    - warm
+    - approachable
+    - modern
+  best_for:
+  - friendly interfaces
+  - apps
+  - education
+  - approachable brand text
+  category: Basics
+- name: Open Gorton
+  source_anchor: Basics:203
+  preview:
+    type: image
+    url: https://ik.imagekit.io/yuzu/fonts/previews/s3-1719765695977.svg
+    aspect_ratio: '5:1'
+  visual_description: >-
+    A utilitarian, engraving-inspired face based on Gorton lettering. It has simple geometric constructions
+    and largely uniform stroke weight, with rounded stroke endings that evoke mechanically engraved text.
+    Its visual character is compact, functional, and industrial, like lettering on equipment panels, machine
+    labels, or keyboard keycaps.
+  visual_traits:
+    classification: industrial, engraving-inspired sans-serif
+    proportions: compact and mechanically constructed
+    stroke_style: monoline or near-monoline, with rounded ends
+    personality:
+    - utilitarian
+    - mechanical
+    - technical
+    - industrial
+  best_for:
+  - keycap legends
+  - equipment labels
+  - control panels
+  - technical signage
+  category: Basics
+- name: ProximaNovaSoft Bold
+  source_anchor: Basics:25
+  preview:
+    type: image
+    url: https://ik.imagekit.io/yuzu/fonts/previews/s3-1719765736439.svg
+    aspect_ratio: '5:1'
+  visual_description: >-
+    A bold weight of a contemporary soft sans-serif. The letterforms have smooth curves and softened corners
+    rather than hard, sharp terminals; the heavy strokes create a solid, confident texture while keeping
+    the overall tone friendly. It feels polished and approachable, with enough weight to stand out in
+    short headings and interface emphasis.
+  visual_traits:
+    classification: bold soft sans-serif
+    proportions: contemporary, rounded, and well-balanced
+    stroke_style: heavy strokes with softened contours
+    personality:
+    - confident
+    - friendly
+    - polished
+    - clear
+  best_for:
+  - bold headings
+  - buttons
+  - short calls to action
+  - brand emphasis
+  category: Basics
+- name: ProximaNovaSoft Semibold
+  source_anchor: Basics:26
+  preview:
+    type: image
+    url: https://ik.imagekit.io/yuzu/fonts/previews/s3-1719765729780.svg
+    aspect_ratio: '5:1'
+  visual_description: >-
+    A semibold weight of a contemporary soft sans-serif, sharing the family’s smooth curves and gently
+    softened corners. Its strokes are substantial enough to create hierarchy but lighter and less forceful
+    than the Bold style. The result is friendly and modern, suited to emphasis that should feel clear
+    without becoming visually heavy.
+  visual_traits:
+    classification: semibold soft sans-serif
+    proportions: contemporary, rounded, and well-balanced
+    stroke_style: medium-heavy strokes with softened contours
+    personality:
+    - friendly
+    - modern
+    - approachable
+    - controlled
+  best_for:
+  - subheadings
+  - navigation
+  - labels
+  - medium emphasis
+  category: Basics
+- name: Dragon Fire
+  category: Fantasy
+  source_anchor: Fantasy:141
+  preview:
+    type: image
+    url: https://ik.imagekit.io/yuzu/fonts/previews/s3-1719766036178.svg
+    aspect_ratio: '5:1'
+  visual_description: >-
+    A dramatic fantasy display face with pointed, flame-like contours and an energetic, sharp silhouette.
+    Its theatrical character is best used at headline size, where the distinctive shapes can stand out
+    without competing with long passages of text.
+  visual_traits:
+    classification: fantasy display
+    proportions: expressive, angular, headline-oriented
+    stroke_style: sharp and dramatic; decorative details may vary by glyph
+    personality:
+    - dramatic
+    - adventurous
+    - high-energy
+    - fantastical
+  best_for:
+  - fantasy titles
+  - game or event branding
+  - short poster headlines
+  readability_note: Use for short text; small sizes may reduce clarity.
+- name: Dumbledor
+  category: Fantasy
+  source_anchor: Fantasy:142
+  preview:
+    type: image
+    url: https://ik.imagekit.io/yuzu/fonts/previews/s3-1719503966301.svg
+    aspect_ratio: '5:1'
+  visual_description: >-
+    A storybook-style fantasy face with an old-world, literary mood and distinctive serif or calligraphic
+    cues. It suggests magical fiction and period storytelling rather than a neutral modern interface;
+    reserve it for titles and other brief text.
+  visual_traits:
+    classification: storybook fantasy display
+    proportions: traditional, decorative letterforms
+    stroke_style: ornamental contours with a literary, old-world feel
+    personality:
+    - magical
+    - narrative
+    - whimsical
+    - vintage
+  best_for:
+  - book or chapter titles
+  - fantasy invitations
+  - themed headings
+  readability_note: Decorative display use is preferable to long body text.
+- name: Irish Uncialfabeta
+  category: Fantasy
+  source_anchor: Fantasy:167
+  preview:
+    type: image
+    url: https://ik.imagekit.io/yuzu/fonts/previews/s3-1719475742978.svg
+    aspect_ratio: '5:1'
+  visual_description: >-
+    An Irish uncial-inspired typeface with rounded, broad letterforms and traditional Celtic character.
+    Its historical calligraphic influence gives it a ceremonial, manuscript-like appearance while retaining
+    recognizable alphabetic forms.
+  visual_traits:
+    classification: Celtic uncial display
+    proportions: rounded forms with distinctive traditional proportions
+    stroke_style: broad strokes and calligraphic curves
+    personality:
+    - heritage
+    - Celtic
+    - historic
+    - ceremonial
+  best_for:
+  - Celtic-themed titles
+  - heritage materials
+  - decorative headings
+  - short inscriptions
+- name: Magic School
+  category: Fantasy
+  source_anchor: Fantasy:138
+  preview:
+    type: image
+    url: https://ik.imagekit.io/yuzu/fonts/previews/s3-1719766053657.svg
+    aspect_ratio: '5:1'
+  visual_description: >-
+    A whimsical fantasy display face suited to a magical-school or storybook atmosphere. Its more characterful
+    lettering makes a title feel themed and imaginative; use it as an accent rather than as the main typeface
+    for dense reading.
+  visual_traits:
+    classification: whimsical fantasy display
+    proportions: expressive display proportions
+    stroke_style: decorative, characterful letter shapes
+    personality:
+    - playful
+    - magical
+    - youthful
+    - theatrical
+  best_for:
+  - themed event titles
+  - children's materials
+  - fantasy labels
+  - short headings
+  readability_note: Use for brief phrases and larger sizes.
+- name: Moria Citadel
+  category: Fantasy
+  source_anchor: Fantasy:140
+  preview:
+    type: image
+    url: https://ik.imagekit.io/yuzu/fonts/previews/s3-1719503980600.svg
+    aspect_ratio: '5:1'
+  visual_description: >-
+    A monumental high-fantasy display face with an ancient-citadel or carved-inscription mood. Its formal,
+    weighty character is suited to epic titles and setting names, where the lettering can establish atmosphere
+    without needing to support continuous reading.
+  visual_traits:
+    classification: epic fantasy display
+    proportions: monumental, title-oriented proportions
+    stroke_style: firm, carved-looking forms with angular details
+    personality:
+    - epic
+    - ancient
+    - monumental
+    - mythic
+  best_for:
+  - fantasy titles
+  - game-world labels
+  - chapter headings
+  - themed posters
+  readability_note: Better for short headings than paragraphs.
+- name: 8bit Wonder
+  category: Pixels
+  source_anchor: Pixels:163
+  preview:
+    type: image
+    url: https://ik.imagekit.io/yuzu/fonts/previews/s3-1719503991959.svg
+    aspect_ratio: '5:1'
+  visual_description: >-
+    A classic 8-bit bitmap display face built from chunky, square-edged pixel shapes. Its visible grid
+    and blocky construction create an immediate retro arcade or early-console feel, especially in large,
+    short labels.
+  visual_traits:
+    classification: 8-bit pixel display
+    proportions: blocky characters aligned to a visible grid
+    stroke_style: solid, square, staircase-like pixel edges
+    personality:
+    - retro
+    - arcade-like
+    - playful
+    - nostalgic
+  best_for:
+  - game titles
+  - pixel-art projects
+  - retro posters
+  - short UI labels
+- name: Alagard
+  category: Pixels
+  source_anchor: Pixels:154
+  preview:
+    type: image
+    url: https://ik.imagekit.io/yuzu/fonts/previews/s3-1719766073478.svg
+    aspect_ratio: '5:1'
+  visual_description: >-
+    A retro game-oriented pixel face with a medieval or fantasy-game flavor. The bitmap construction keeps
+    a low-resolution texture, while its more characterful shapes feel closer to classic adventure-game
+    lettering than to a neutral system font.
+  visual_traits:
+    classification: fantasy pixel display
+    proportions: compact, grid-based glyphs
+    stroke_style: pixel-stepped edges with decorative old-game character
+    personality:
+    - retro fantasy
+    - adventurous
+    - nostalgic
+    - game-like
+  best_for:
+  - pixel RPG titles
+  - fantasy game interfaces
+  - retro game graphics
+  - short labels
+- name: EASVHS
+  category: Pixels
+  source_anchor: Pixels:155
+  preview:
+    type: image
+    url: https://ik.imagekit.io/yuzu/fonts/previews/s3-1719766085632.svg
+    aspect_ratio: '5:1'
+  visual_description: >-
+    A screen-era pixel display style with a deliberately digital, low-resolution character. The name evokes
+    emergency-broadcast or VHS-era graphics, so the design reads as a period-specific visual effect rather
+    than a neutral text face.
+  visual_traits:
+    classification: digital screen pixel display
+    proportions: bitmap-like, compact forms
+    stroke_style: hard-edged digital construction
+    personality:
+    - retro-tech
+    - screen-like
+    - nostalgic
+    - high-contrast
+  best_for:
+  - retro screen graphics
+  - short labels
+  - video-themed designs
+  readability_note: A niche, effect-driven choice; check the preview for legibility before using it for
+    essential text.
+- name: Early GameBoy
+  category: Pixels
+  source_anchor: Pixels:153
+  preview:
+    type: image
+    url: https://ik.imagekit.io/yuzu/fonts/previews/s3-1719475208979.svg
+    aspect_ratio: '5:1'
+  visual_description: >-
+    A low-resolution bitmap face inspired by early handheld-game displays. Its simple pixel-grid construction
+    and compact shapes recall monochrome portable-console graphics; it works best when a deliberate old-screen
+    look is wanted.
+  visual_traits:
+    classification: handheld-console pixel font
+    proportions: compact, grid-aligned glyphs
+    stroke_style: simple square pixels with minimal detail
+    personality:
+    - nostalgic
+    - minimal
+    - retro
+    - game-like
+  best_for:
+  - handheld-game mockups
+  - retro UI
+  - pixel-art captions
+  - short labels
+- name: Edit Undo Line
+  category: Pixels
+  source_anchor: Pixels:166
+  preview:
+    type: image
+    url: https://ik.imagekit.io/yuzu/fonts/previews/s3-1719475522373.svg
+    aspect_ratio: '5:1'
+  visual_description: >-
+    A line-based digital display style with a lighter, outline-like or monoline impression compared with
+    heavy filled pixel fonts. Its technical, schematic character is useful when a retro screen aesthetic
+    should feel less chunky.
+  visual_traits:
+    classification: line-based pixel display
+    proportions: lightweight, grid-oriented lettering
+    stroke_style: thin linear strokes rather than heavy filled blocks
+    personality:
+    - technical
+    - minimal
+    - retro-digital
+    - wireframe-like
+  best_for:
+  - experimental UI labels
+  - technical graphics
+  - short headings
+  readability_note: Thin strokes may be less clear at small sizes or low contrast.
+- name: Gorgeous Pixel
+  category: Pixels
+  source_anchor: Pixels:159
+  preview:
+    type: image
+    url: https://ik.imagekit.io/yuzu/fonts/previews/s3-1719766106680.svg
+    aspect_ratio: '5:1'
+  visual_description: >-
+    A decorative pixel display face that combines a visible low-resolution grid with more expressive character
+    shapes than a plain bitmap UI font. It keeps the retro pixel-art signal while giving short text a
+    more designed, ornamental feel.
+  visual_traits:
+    classification: decorative pixel display
+    proportions: grid-based, expressive forms
+    stroke_style: pixel-stepped edges with additional character detail
+    personality:
+    - retro
+    - expressive
+    - playful
+    - designed
+  best_for:
+  - pixel-art titles
+  - game branding
+  - short poster text
+  - decorative labels
+- name: I pixel U
+  category: Pixels
+  source_anchor: Pixels:157
+  preview:
+    type: image
+    url: https://ik.imagekit.io/yuzu/fonts/previews/s3-1719504049422.svg
+    aspect_ratio: '5:1'
+  visual_description: >-
+    A playful pixel-art typeface with visibly squared letter construction and a friendly, informal tone.
+    The grid-based shapes make it feel native to retro games and digital craft projects rather than conventional
+    print typography.
+  visual_traits:
+    classification: playful pixel display
+    proportions: simple, squared, grid-aligned forms
+    stroke_style: blocky edges and compact strokes
+    personality:
+    - playful
+    - casual
+    - retro
+    - friendly
+  best_for:
+  - game graphics
+  - pixel-art projects
+  - short captions
+  - informal headings
+- name: Minecraft
+  category: Pixels
+  source_anchor: Pixels:160
+  preview:
+    type: image
+    url: https://ik.imagekit.io/yuzu/fonts/previews/s3-1719504058389.svg
+    aspect_ratio: '5:1'
+  visual_description: >-
+    A chunky, block-built display face associated with voxel worlds and construction-game graphics. Rectangular
+    shapes and square corners give the lettering a modular, terrain-block impression, making it recognizable
+    as a game-themed accent.
+  visual_traits:
+    classification: voxel-inspired pixel display
+    proportions: large, modular, block-like forms
+    stroke_style: heavy rectangular strokes and squared corners
+    personality:
+    - blocky
+    - game-like
+    - playful
+    - robust
+  best_for:
+  - game-themed titles
+  - voxel graphics
+  - event signs
+  - short labels
+- name: Nokia Cellphone
+  category: Pixels
+  source_anchor: Pixels:165
+  preview:
+    type: image
+    url: https://ik.imagekit.io/yuzu/fonts/previews/s3-1719766129919.svg
+    aspect_ratio: '5:1'
+  visual_description: >-
+    A compact bitmap style inspired by early mobile-phone screens. Its utilitarian, low-resolution forms
+    suggest menu text, SMS-era interfaces, and small monochrome displays rather than large expressive
+    lettering.
+  visual_traits:
+    classification: mobile-screen bitmap
+    proportions: compact and screen-oriented
+    stroke_style: simple pixel-built strokes with limited detail
+    personality:
+    - utilitarian
+    - nostalgic
+    - digital
+    - compact
+  best_for:
+  - retro phone mockups
+  - SMS-themed graphics
+  - small-screen UI concepts
+  - short labels
+- name: Pixeled
+  category: Pixels
+  source_anchor: Pixels:152
+  preview:
+    type: image
+    url: https://ik.imagekit.io/yuzu/fonts/previews/s3-1719766140741.svg
+    aspect_ratio: '5:1'
+  visual_description: >-
+    A straightforward pixel-grid display face with square edges and an intentionally low-resolution texture.
+    Its relatively direct construction makes it a flexible choice for retro digital styling without requiring
+    a heavily themed game reference.
+  visual_traits:
+    classification: general pixel display
+    proportions: grid-aligned, compact characters
+    stroke_style: crisp square pixel edges
+    personality:
+    - retro
+    - direct
+    - digital
+    - functional
+  best_for:
+  - pixel art
+  - retro interfaces
+  - short game labels
+  - digital-themed graphics
+- name: Pokemon Classic
+  category: Pixels
+  source_anchor: Pixels:156
+  preview:
+    type: image
+    url: https://ik.imagekit.io/yuzu/fonts/previews/s3-1719504069954.svg
+    aspect_ratio: '5:1'
+  visual_description: >-
+    A nostalgic handheld RPG-style pixel face with chunky, low-resolution letterforms. It evokes classic
+    monster-catching game interfaces and title screens; use it for short game-inspired text rather than
+    contemporary long-form content.
+  visual_traits:
+    classification: retro RPG pixel display
+    proportions: compact, grid-based game lettering
+    stroke_style: solid pixel edges with a classic console texture
+    personality:
+    - nostalgic
+    - adventurous
+    - game-like
+    - playful
+  best_for:
+  - retro RPG graphics
+  - game-themed headings
+  - pixel-art posters
+  - short labels
+- name: Press Start
+  category: Pixels
+  source_anchor: Pixels:162
+  preview:
+    type: image
+    url: https://ik.imagekit.io/yuzu/fonts/previews/s3-1719504076034.svg
+    aspect_ratio: '5:1'
+  visual_description: >-
+    A bold arcade-style pixel face made from strong, uniform block shapes. The dense square construction
+    recalls classic coin-op game screens and commands attention in short, high-impact phrases.
+  visual_traits:
+    classification: arcade pixel display
+    proportions: large, blocky, tightly structured forms
+    stroke_style: heavy square pixel strokes
+    personality:
+    - bold
+    - arcade-like
+    - nostalgic
+    - energetic
+  best_for:
+  - arcade titles
+  - game menus
+  - retro posters
+  - short calls to action
+- name: Silkscreen
+  category: Pixels
+  source_anchor: Pixels:161
+  preview:
+    type: image
+    url: https://ik.imagekit.io/yuzu/fonts/previews/s3-1719504100023.svg
+    aspect_ratio: '5:1'
+  visual_description: >-
+    A clean, economical pixel sans-serif designed around crisp bitmap shapes. Compared with highly ornamental
+    retro display faces, it has a more disciplined, screen-oriented appearance and is useful for compact
+    labels and interface-like text.
+  visual_traits:
+    classification: pixel sans-serif
+    proportions: compact and regular
+    stroke_style: simple bitmap strokes with crisp edges
+    personality:
+    - clean
+    - functional
+    - retro-digital
+    - compact
+  best_for:
+  - pixel UI
+  - small labels
+  - retro interfaces
+  - compact game text
+- name: Super Mario Bros 2
+  category: Pixels
+  source_anchor: Pixels:158
+  preview:
+    type: image
+    url: https://ik.imagekit.io/yuzu/fonts/previews/s3-1719504116321.svg
+    aspect_ratio: '5:1'
+  visual_description: >-
+    A playful game-inspired pixel display face with a chunky, colorful-era console sensibility. Its visible
+    low-resolution construction feels energetic and nostalgic, making it best suited to short titles and
+    game-themed graphics.
+  visual_traits:
+    classification: console-game pixel display
+    proportions: chunky, grid-based lettering
+    stroke_style: square pixels and pronounced block shapes
+    personality:
+    - playful
+    - nostalgic
+    - energetic
+    - game-like
+  best_for:
+  - game-themed posters
+  - retro game titles
+  - pixel art
+  - short labels
+- name: Upheaval TT
+  category: Pixels
+  source_anchor: Pixels:164
+  preview:
+    type: image
+    url: https://ik.imagekit.io/yuzu/fonts/previews/s3-1719504134224.svg
+    aspect_ratio: '5:1'
+  visual_description: >-
+    A forceful pixel display face with angular, irregular energy rather than a neutral bitmap texture.
+    Its blocky construction gives titles an urgent arcade or action-game feel, so it is most effective
+    in brief, prominent text.
+  visual_traits:
+    classification: expressive pixel display
+    proportions: bold, angular, display-oriented forms
+    stroke_style: heavy pixel edges with energetic contours
+    personality:
+    - intense
+    - arcade-like
+    - bold
+    - dynamic
+  best_for:
+  - action game titles
+  - retro posters
+  - short emphatic headings
+  readability_note: Designed for display emphasis, not long paragraphs.
+- name: Chaumont
+  category: Display
+  source_anchor: Display:145
+  preview:
+    type: image
+    url: https://ik.imagekit.io/yuzu/fonts/previews/s3-1719504154345.svg
+    aspect_ratio: '5:1'
+  visual_description: >-
+    A distinctive display face intended to give short text a deliberate typographic personality rather
+    than disappear into the page. Use its preview to confirm the exact contrast and proportions; treat
+    it as a headline or branding choice rather than assuming it is a neutral text font.
+  visual_traits:
+    classification: expressive display
+    proportions: distinctive, headline-oriented proportions
+    stroke_style: individual character shapes carry the style
+    personality:
+    - distinctive
+    - editorial
+    - expressive
+  best_for:
+  - brand headings
+  - poster titles
+  - short cover text
+  readability_note: The HTML supplies a preview link but no descriptive font metadata; verify exact letterform
+    details in the preview.
+- name: Dune Rise
+  category: Display
+  source_anchor: Display:190
+  preview:
+    type: image
+    url: https://ik.imagekit.io/yuzu/fonts/previews/s3-1719504164986.svg
+    aspect_ratio: '5:1'
+  visual_description: >-
+    A science-fiction-leaning display face with a sleek, cinematic, futuristic mood. It suggests engineered
+    or otherworldly lettering and works best when the typography itself is part of the visual concept.
+  visual_traits:
+    classification: futuristic display
+    proportions: stylized, cinematic proportions
+    stroke_style: geometric or angular character; confirm the exact construction in the preview
+    personality:
+    - futuristic
+    - cinematic
+    - speculative
+    - bold
+  best_for:
+  - sci-fi titles
+  - game branding
+  - event posters
+  - short headings
+  readability_note: The name/category suggest a sci-fi style; inspect the linked sample for exact glyph
+    details.
+- name: Fredoka One
+  category: Display
+  source_anchor: Display:150
+  preview:
+    type: image
+    url: https://ik.imagekit.io/yuzu/fonts/previews/s3-1719766160589.svg
+    aspect_ratio: '5:1'
+  visual_description: >-
+    A heavy, rounded display sans-serif with inflated, friendly shapes and soft corners. The generous
+    stroke weight and circular forms make it cheerful and highly visible, though too bulky for long passages
+    or tightly packed text.
+  visual_traits:
+    classification: rounded display sans-serif
+    proportions: wide, substantial, rounded forms
+    stroke_style: heavy strokes with smooth curves
+    personality:
+    - cheerful
+    - bold
+    - friendly
+    - playful
+  best_for:
+  - children's materials
+  - large headings
+  - packaging
+  - friendly brand graphics
+- name: Mouse Memoirs
+  category: Display
+  source_anchor: Display:149
+  preview:
+    type: image
+    url: https://ik.imagekit.io/yuzu/fonts/previews/s3-1719766222386.svg
+    aspect_ratio: '5:1'
+  visual_description: >-
+    A playful, cartoon-oriented display sans-serif with rounded, approachable forms and a storybook or
+    animation feel. Its friendly personality is strong enough to carry short titles while remaining more
+    letter-like than a purely ornamental novelty face.
+  visual_traits:
+    classification: cartoon display sans-serif
+    proportions: lively, rounded, display proportions
+    stroke_style: smooth, relatively bold strokes
+    personality:
+    - cartoonish
+    - friendly
+    - nostalgic
+    - whimsical
+  best_for:
+  - children's titles
+  - comic or cartoon projects
+  - event graphics
+  - short headings
+- name: Nasalization
+  category: Display
+  source_anchor: Display:189
+  preview:
+    type: image
+    url: https://ik.imagekit.io/yuzu/fonts/previews/s3-1719504189096.svg
+    aspect_ratio: '5:1'
+  visual_description: >-
+    A geometric futuristic sans-serif with a streamlined, space-age character. Its engineered curves and
+    clean shapes evoke aerospace, automotive, and technology branding, giving short headings a forward-looking,
+    technical tone.
+  visual_traits:
+    classification: futuristic geometric sans-serif
+    proportions: geometric, streamlined forms
+    stroke_style: clean strokes with technological shaping
+    personality:
+    - futuristic
+    - technical
+    - sleek
+    - modern
+  best_for:
+  - technology branding
+  - sci-fi graphics
+  - product headings
+  - short labels
+- name: Nervous
+  category: Display
+  source_anchor: Display:151
+  preview:
+    type: image
+    url: https://ik.imagekit.io/yuzu/fonts/previews/s3-1719766183208.svg
+    aspect_ratio: '5:1'
+  visual_description: >-
+    An expressive display face with a restless or irregular mood, intended to look more characterful than
+    a standard sans-serif. It can give a short title tension and movement, but should be tested at the
+    intended size because highly stylized letterforms may slow reading.
+  visual_traits:
+    classification: expressive novelty display
+    proportions: irregular, intentionally characterful forms
+    stroke_style: less uniform than conventional text faces
+    personality:
+    - quirky
+    - energetic
+    - uneasy
+    - expressive
+  best_for:
+  - short poster headlines
+  - themed graphics
+  - brief decorative labels
+  readability_note: Potentially harder to read than a conventional display sans; avoid essential fine
+    print.
+- name: Tesla
+  category: Display
+  source_anchor: Display:191
+  preview:
+    type: image
+    url: https://ik.imagekit.io/yuzu/fonts/previews/s3-1719504222330.svg
+    aspect_ratio: '5:1'
+  visual_description: >-
+    A streamlined, technology-oriented display face with a polished, engineered feel. It is suited to
+    contemporary product or automotive-themed graphics where clean, purposeful lettering should communicate
+    speed, precision, or innovation.
+  visual_traits:
+    classification: modern technical display
+    proportions: controlled, streamlined proportions
+    stroke_style: clean, engineered strokes
+    personality:
+    - technical
+    - sleek
+    - precise
+    - modern
+  best_for:
+  - technology or automotive graphics
+  - product titles
+  - logos and wordmarks
+  - short headings
+  readability_note: The HTML provides only the name and preview link; confirm exact letterform details
+    in the sample.
+- name: Wolves and Ruin
+  category: Display
+  source_anchor: Display:143
+  preview:
+    type: image
+    url: https://ik.imagekit.io/yuzu/fonts/previews/s3-1719766206019.svg
+    aspect_ratio: '5:1'
+  visual_description: >-
+    A dark, dramatic display face with a fantasy or metal-inspired mood. Its expressive character suits
+    short titles that need atmosphere and intensity; it should be paired with a simpler text face for
+    supporting information.
+  visual_traits:
+    classification: dark fantasy display
+    proportions: dramatic, title-oriented forms
+    stroke_style: ornamental or distressed character; check details in the linked sample
+    personality:
+    - dark
+    - dramatic
+    - fantastical
+    - intense
+  best_for:
+  - fantasy titles
+  - music or event posters
+  - game branding
+  - short cover text
+  readability_note: Atmosphere-first display use; check the preview carefully before using for critical
+    text.
