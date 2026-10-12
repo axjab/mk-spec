@@ -481,7 +481,7 @@
       "x": -10.75,
       "y": 1.25,
       "id": "LGD4ZR",
-      "sizeId": "1.5u",
+      "sizeId": "1.25u",
       "labelId": "space",
       "rowNumber": 4
     },
@@ -489,7 +489,7 @@
       "x": -8.75,
       "y": 1.25,
       "id": "6ACG4J",
-      "sizeId": "1.5u",
+      "sizeId": "1.25u",
       "labelId": "space",
       "rowNumber": 4
     }
