@@ -1,4 +1,4 @@
-# Mechanical Keyboard Design Specifications
+# Mechanical Keyboard Design Specification
 
 ![Silakka Field Viper](./Silakka%20Field%20Viper.png)
 
