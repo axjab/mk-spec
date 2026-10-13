@@ -1,6 +1,5 @@
 # Mechanical Keyboard Design Specifications
 
-![Silakka Field Viper](./Silakka%20Field%20Viper.svg)
 ![Silakka Field Viper](./Silakka%20Field%20Viper.png)
 
 Custom keycap design for the Silakka54 split ergonomic keyboard.
